@@ -11,7 +11,7 @@ import Auth from '../utils/auth';
 import { removeBookId } from '../utils/localStorage';
 
 const SavedBooks = () => {
-  const { loading, data } = useQuery(QUERY_TECH);
+  const { loading, data } = useQuery(GET_ME);
 
   // const [userData, setUserData] = useState({}); COMMENT: not using this
 
