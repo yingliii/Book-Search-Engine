@@ -60,11 +60,9 @@ const SavedBooks = () => {
     try {
       // COMMENT: NOT USING
       // const response = await deleteBook(bookId, token);
-
       // if (!response.ok) {
       //   throw new Error('something went wrong!');
       // }
-
       // const updatedUser = await response.json();
       // setUserData(updatedUser);
 
@@ -99,9 +97,9 @@ const SavedBooks = () => {
       </Jumbotron>
       <Container>
         <h2>
-          {userData?.savedBooks.length
-            ? `Viewing ${userData?.savedBooks.length} saved ${
-                userData?.savedBooks.length === 1 ? 'book' : 'books'
+          {userData.savedBooks.length
+            ? `Viewing ${userData.savedBooks.length} saved ${
+                userData.savedBooks.length === 1 ? 'book' : 'books'
               }:`
             : 'You have no saved books!'}
         </h2>
