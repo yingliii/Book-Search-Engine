@@ -28,8 +28,8 @@ User is required to install below software for this project:
 
 ## Usage
 
-1.  `npm install` to install packages and dependencies.
-2.  `npm run develop` to start the react app.
+1.  `npm install` to install packages and dependencies
+2.  `npm run develop` to start the react app
 
 See a live demonstration in the demo section below.
 
